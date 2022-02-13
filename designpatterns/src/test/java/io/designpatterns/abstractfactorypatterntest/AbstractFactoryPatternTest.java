@@ -1,4 +1,4 @@
-package io.designpatterns.abstractfactorypattern;
+package io.designpatterns.abstractfactorypatterntest;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
