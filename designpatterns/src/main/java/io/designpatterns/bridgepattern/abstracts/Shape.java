@@ -10,5 +10,5 @@ public abstract class Shape {
         this.drawAPI = drawAPI;
     }
 
-    public abstract void draw();
+    public abstract String draw();
 }

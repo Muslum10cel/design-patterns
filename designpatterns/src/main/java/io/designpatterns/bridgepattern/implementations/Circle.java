@@ -9,7 +9,7 @@ public class Circle extends Shape {
     private int y;
     private int radius;
 
-    protected Circle(int x, int y, int radius, DrawAPI drawAPI) {
+    public Circle(int x, int y, int radius, DrawAPI drawAPI) {
         super(drawAPI);
         this.x = x;
         this.y = y;
@@ -17,8 +17,8 @@ public class Circle extends Shape {
     }
 
     @Override
-    public void draw() {
-        drawAPI.drawCircle(radius, x, y);
+    public String draw() {
+        return drawAPI.drawCircle(radius, x, y);
     }
 
 }
