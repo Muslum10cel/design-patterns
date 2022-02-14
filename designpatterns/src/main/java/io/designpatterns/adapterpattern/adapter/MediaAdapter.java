@@ -14,22 +14,24 @@ public class MediaAdapter implements MediaPlayer {
         switch (audioType) {
             case VLC:
                 advancedMediaPlayer = new VlcPlayer();
+                break;
             case MP4:
                 advancedMediaPlayer = new Mp4Player();
+                break;
             default:
                 advancedMediaPlayer = null;
         }
     }
 
     @Override
-    public void play(AudioType audioType, String fileName) {
+    public String play(AudioType audioType, String fileName) {
         switch (audioType) {
             case VLC:
-                advancedMediaPlayer.playVlc(fileName);
+                return advancedMediaPlayer.playVlc(fileName);
             case MP4:
-                advancedMediaPlayer.playMp4(fileName);
+                return advancedMediaPlayer.playMp4(fileName);
             default:
-                System.out.println("MediaAdapter.play()");
+                return "Media Player play";
         }
     }
 

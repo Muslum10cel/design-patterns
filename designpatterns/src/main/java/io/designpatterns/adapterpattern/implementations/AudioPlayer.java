@@ -9,15 +9,16 @@ public class AudioPlayer implements MediaPlayer{
     private MediaAdapter mediaAdapter;
 
     @Override
-    public void play(AudioType audioType, String fileName) {
+    public String play(AudioType audioType, String fileName) {
        switch(audioType){
            case MP3:
-            System.out.println("MP3 file is playing. Name : " + fileName);
+            return "Mp3 Player";
             case MP4:
             case VLC:
                 mediaAdapter = new MediaAdapter(audioType);
-                mediaAdapter.play(audioType, fileName);
+                return mediaAdapter.play(audioType, fileName);
        }
+       return null;
     }
     
 }

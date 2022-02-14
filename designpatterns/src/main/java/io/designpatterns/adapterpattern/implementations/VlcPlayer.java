@@ -2,16 +2,16 @@ package io.designpatterns.adapterpattern.implementations;
 
 import io.designpatterns.adapterpattern.interfaces.AdvancedMediaPlayer;
 
-public class VlcPlayer implements AdvancedMediaPlayer{
+public class VlcPlayer implements AdvancedMediaPlayer {
 
     @Override
-    public void playVlc(String fileName) {
-        System.out.println("VlcPlayer.playVlc()");
+    public String playVlc(String fileName) {
+        return "play Vlc";
     }
 
     @Override
-    public void playMp4(String fileName) {
-       throw new UnsupportedOperationException();
+    public String playMp4(String fileName) {
+        throw new UnsupportedOperationException();
     }
-    
+
 }
