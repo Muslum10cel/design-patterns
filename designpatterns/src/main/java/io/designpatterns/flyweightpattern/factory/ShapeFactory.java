@@ -17,6 +17,8 @@ public class ShapeFactory {
         if(circle == null){
             circle = new Circle(color);
             CIRCLE_MAP.put(color, circle);
+        }else{
+            circle.setNewlyCreated(false);
         }
 
         return circle;

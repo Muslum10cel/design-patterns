@@ -8,6 +8,7 @@ public class Circle implements Shape{
     private int y;
     private int radius;
     private String color;
+    private boolean isNewlyCreated = true;
 
     public Circle(String color) {
         this.color = color;
@@ -23,6 +24,14 @@ public class Circle implements Shape{
 
     public void setRadius(int radius) {
         this.radius = radius;
+    }
+
+    public void setNewlyCreated(boolean isNewlyCreated) {
+        this.isNewlyCreated = isNewlyCreated;
+    }
+
+    public boolean isNewlyCreated() {
+        return isNewlyCreated;
     }
 
     @Override
