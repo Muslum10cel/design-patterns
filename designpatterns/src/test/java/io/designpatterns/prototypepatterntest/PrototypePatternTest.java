@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.prototypepattern.abstracts.Shape;
-import io.designpatterns.prototypepattern.cache.ShapeCache;
-import io.designpatterns.prototypepattern.implementations.Circle;
-import io.designpatterns.prototypepattern.implementations.Rectangle;
-import io.designpatterns.prototypepattern.implementations.Square;
+import io.designpatterns.CreationalPatterns.prototypepattern.abstracts.Shape;
+import io.designpatterns.CreationalPatterns.prototypepattern.cache.ShapeCache;
+import io.designpatterns.CreationalPatterns.prototypepattern.implementations.Circle;
+import io.designpatterns.CreationalPatterns.prototypepattern.implementations.Rectangle;
+import io.designpatterns.CreationalPatterns.prototypepattern.implementations.Square;
 
 public class PrototypePatternTest {
     

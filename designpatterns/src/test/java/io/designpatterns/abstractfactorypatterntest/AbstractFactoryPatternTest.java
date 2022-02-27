@@ -4,13 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.abstractfactorypattern.abstracts.AbstractFactory;
-import io.designpatterns.abstractfactorypattern.enums.*;
-import io.designpatterns.abstractfactorypattern.factory.*;
-import io.designpatterns.abstractfactorypattern.factoryproducer.FactoryProducer;
-import io.designpatterns.abstractfactorypattern.impelementations.colorimplementations.*;
-import io.designpatterns.abstractfactorypattern.impelementations.shapeimplementations.*;
-import io.designpatterns.abstractfactorypattern.interfaces.*;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.abstracts.AbstractFactory;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.enums.*;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.factory.*;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.factoryproducer.FactoryProducer;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.impelementations.colorimplementations.*;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.impelementations.shapeimplementations.*;
+import io.designpatterns.CreationalPatterns.abstractfactorypattern.interfaces.*;
 
 public class AbstractFactoryPatternTest {
     

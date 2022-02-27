@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.factorypattern.enums.ShapeType;
-import io.designpatterns.factorypattern.factory.ShapeFactory;
-import io.designpatterns.factorypattern.impelementations.Circle;
-import io.designpatterns.factorypattern.impelementations.Rectangle;
-import io.designpatterns.factorypattern.impelementations.Square;
-import io.designpatterns.factorypattern.interfaces.Shape;
+import io.designpatterns.CreationalPatterns.factorypattern.enums.ShapeType;
+import io.designpatterns.CreationalPatterns.factorypattern.factory.ShapeFactory;
+import io.designpatterns.CreationalPatterns.factorypattern.impelementations.Circle;
+import io.designpatterns.CreationalPatterns.factorypattern.impelementations.Rectangle;
+import io.designpatterns.CreationalPatterns.factorypattern.impelementations.Square;
+import io.designpatterns.CreationalPatterns.factorypattern.interfaces.Shape;
 
 public class FactoryPatternTest {
     
