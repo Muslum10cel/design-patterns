@@ -8,15 +8,15 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.filterpattern.enums.Gender;
-import io.designpatterns.filterpattern.enums.MaritalStatus;
-import io.designpatterns.filterpattern.implementations.AndCriteria;
-import io.designpatterns.filterpattern.implementations.CriteriaFemale;
-import io.designpatterns.filterpattern.implementations.CriteriaMale;
-import io.designpatterns.filterpattern.implementations.CriteriaSingle;
-import io.designpatterns.filterpattern.implementations.OrCriteria;
-import io.designpatterns.filterpattern.interfaces.Criteria;
-import io.designpatterns.filterpattern.model.Person;
+import io.designpatterns.StructuralPatterns.filterpattern.enums.Gender;
+import io.designpatterns.StructuralPatterns.filterpattern.enums.MaritalStatus;
+import io.designpatterns.StructuralPatterns.filterpattern.implementations.AndCriteria;
+import io.designpatterns.StructuralPatterns.filterpattern.implementations.CriteriaFemale;
+import io.designpatterns.StructuralPatterns.filterpattern.implementations.CriteriaMale;
+import io.designpatterns.StructuralPatterns.filterpattern.implementations.CriteriaSingle;
+import io.designpatterns.StructuralPatterns.filterpattern.implementations.OrCriteria;
+import io.designpatterns.StructuralPatterns.filterpattern.interfaces.Criteria;
+import io.designpatterns.StructuralPatterns.filterpattern.model.Person;
 
 public class FilterPatternTest {
     

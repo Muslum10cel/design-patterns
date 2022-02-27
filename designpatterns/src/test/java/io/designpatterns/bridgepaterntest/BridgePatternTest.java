@@ -4,10 +4,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.bridgepattern.abstracts.Shape;
-import io.designpatterns.bridgepattern.implementations.Circle;
-import io.designpatterns.bridgepattern.implementations.GreenCircle;
-import io.designpatterns.bridgepattern.implementations.RedCircle;
+import io.designpatterns.StructuralPatterns.bridgepattern.abstracts.Shape;
+import io.designpatterns.StructuralPatterns.bridgepattern.implementations.Circle;
+import io.designpatterns.StructuralPatterns.bridgepattern.implementations.GreenCircle;
+import io.designpatterns.StructuralPatterns.bridgepattern.implementations.RedCircle;
 
 public class BridgePatternTest {
     

@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.flyweightpattern.factory.ShapeFactory;
-import io.designpatterns.flyweightpattern.implementations.Circle;
+import io.designpatterns.StructuralPatterns.flyweightpattern.factory.ShapeFactory;
+import io.designpatterns.StructuralPatterns.flyweightpattern.implementations.Circle;
 
 public class FlyWeightPatternTest {
     

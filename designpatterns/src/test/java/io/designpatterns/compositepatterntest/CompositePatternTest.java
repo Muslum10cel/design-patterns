@@ -8,8 +8,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.compositepattern.enums.Department;
-import io.designpatterns.compositepattern.model.Employee;
+import io.designpatterns.StructuralPatterns.compositepattern.enums.Department;
+import io.designpatterns.StructuralPatterns.compositepattern.model.Employee;
 
 public class CompositePatternTest {
     

@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import io.designpatterns.adapterpattern.enums.AudioType;
-import io.designpatterns.adapterpattern.implementations.AudioPlayer;
+import io.designpatterns.StructuralPatterns.adapterpattern.enums.AudioType;
+import io.designpatterns.StructuralPatterns.adapterpattern.implementations.AudioPlayer;
 
 public class AdapterPatternTest {
     
